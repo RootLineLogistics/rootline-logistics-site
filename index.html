@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RootLine Logistics</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #020617;
+      color: white;
+    }
+
+    /* HERO */
+    .hero {
+      padding: 120px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 52px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #cbd5e1;
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn-green {
+      background: #16a34a;
+      color: white;
+    }
+
+    .btn-green:hover {
+      background: #15803d;
+    }
+
+    .btn-outline {
+      border: 1px solid white;
+      color: white;
+    }
+
+    .btn-outline:hover {
+      background: white;
+      color: black;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 80px 20px;
+    }
+
+    .dark {
+      background: #0f172a;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 50px;
+    }
+
+    /* SERVICES */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 16px;
+    }
+
+    .card h3 {
+      color: #22c55e;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #cbd5e1;
+      line-height: 1.5;
+    }
+
+    /* WHY US */
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      text-align: center;
+    }
+
+    .why h3 {
+      color: #22c55e;
+      margin-bottom: 10px;
+    }
+
+    .why p {
+      color: #cbd5e1;
+    }
+
+    /* CONTACT */
+    .contact {
+      text-align: center;
+      color: #cbd5e1;
+      font-size: 18px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>RootLine Logistics</h1>
+
+    <p>
+      Reliable Dry Van & Flatbed Freight Solutions Across the United States.
+    </p>
+
+    <div class="btn-group">
+      <a class="btn btn-green" href="#">Request a Quote</a>
+      <a class="btn btn-outline" href="#">Become a Carrier</a>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="dark">
+    <div class="container">
+
+      <h2>Freight Services</h2>
+
+      <div class="grid">
+
+        <div class="card">
+          <h3>Dry Van Freight</h3>
+          <p>
+            Safe, efficient, and dependable dry van transportation for general freight,
+            retail, manufacturing, and distribution.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Flatbed Freight</h3>
+          <p>
+            Specialized flatbed solutions for oversized, industrial, and construction
+            freight requiring secure transport.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section>
+    <div class="container">
+
+      <h2>Why RootLine Logistics</h2>
+
+      <div class="why-grid">
+
+        <div class="why">
+          <h3>Reliable Capacity</h3>
+          <p>Trusted carrier network with dependable coverage.</p>
+        </div>
+
+        <div class="why">
+          <h3>Fast Communication</h3>
+          <p>Clear updates and responsive support from pickup to delivery.</p>
+        </div>
+
+        <div class="why">
+          <h3>Freight Expertise</h3>
+          <p>Experience handling both dry van and flatbed freight lanes.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="dark">
+    <div class="container">
+
+      <h2>Contact RootLine Logistics</h2>
+
+      <div class="contact">
+        <p>Email: your-email@example.com</p>
+        <p>Phone: (000) 000-0000</p>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
